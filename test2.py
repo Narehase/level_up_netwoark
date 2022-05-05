@@ -77,7 +77,7 @@ class learning:
         self.stsize = pick.shape
         self.state = pick
         return pick,pik
-        pass
+
 
 def actions(state,state_list): #행동 정하기
     ui = []
