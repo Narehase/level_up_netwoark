@@ -51,7 +51,7 @@ class learning:
 
     def load_state(self):
 
-            #현재 상태 불러오기
+        #현재 상태 불러오기
         pount = self.points
         #print(pount[0][0],pount[0][1],pount[1][0],pount[1][1]  )
         ack = pyautogui.screenshot(region=  (pount[0][0],pount[0][1],int(pount[1][0] - pount[0][0]),int(pount[1][1]-pount[0][1])))
