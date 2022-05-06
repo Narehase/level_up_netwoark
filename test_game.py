@@ -3,7 +3,7 @@ import os
 import keyboard
 import numpy as np
 def down():
-    print("####  ####\n####  ####\n##      ##\n###    ###\n####  ####")
+	print("####  ####\n####  ####\n##      ##\n###    ###\n####  ####")
 def l():
     print("####### ##\n#######  #\n\n#######  #\n####### ##")
 def r():
